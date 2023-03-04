@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- normalize css file -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- swiper js -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <title>Spruce</title>
+  </head>
+  <body>
+    <!-- start nav-bar -->
+    <nav class="nav">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html">Spruce</a>
+        </div>
+        <a href="#" class="toggle-button">
+          <i class="fa-sharp fa-solid fa-bars fa-2x"></i>
+        </a>
+        <div class="links">
+          <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end nav-bar -->
+    <!-- start landing -->
+    <div class="landing">
+      <div class="logo">
+        <img src="imgs/white-logo.png" alt="logo" />
+      </div>
+      <h3>Imagine designs with an ultra-wide angle</h3>
+      <div class="slider-container">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="imgs/gallery-01.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="imgs/gallery-02.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="imgs/gallery-03.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="imgs/gallery-04.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="imgs/gallery-05.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="imgs/gallery-06.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="imgs/gallery-07.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="imgs/gallery-08.jpg" alt="" />
+            </div>
+            ...
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+    <!-- end landing -->
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- js file -->
+    <script src="app.js"></script>
+  </body>
+</html>
